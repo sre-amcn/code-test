@@ -27,7 +27,7 @@ class schedule{
         $show = 'Comedy Bang! Bang!';
 
         try{
-            // execute the schedule count
+            # execute the schedule count
             
         }
         catch(\Exception $e){
@@ -37,17 +37,17 @@ class schedule{
         }
     }
 
-    // retrieve the schedule data from endpoint, and store in schedule_data property
+    # retrieve the schedule data from endpoint, and store in schedule_data property
     private function get_schedule($network){
 
     }
 
-    // parse the json based schedule, and store in parsed_data property
+    # parse the json based schedule, and store in parsed_data property
     private function parse_schedule(){
 
     }
 
-    // count the number of occurances, and store in count property
+    # count the number of occurances, and store in count property
     private function count_schedule($showname){
 
     }
